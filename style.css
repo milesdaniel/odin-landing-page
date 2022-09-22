@@ -9,7 +9,8 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background: #666;
+    background: #1f2937;
+    color: white;
 }
 
 .nav {
@@ -31,13 +32,13 @@ body {
 .header-content-left {
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 25%;
 }
 
 .listen {
     width: 100px;
     padding: 5px;
-    background: black;
+    background: #3882f6;
     color: white;
     border: none;
     border-radius: 8px;
@@ -45,10 +46,11 @@ body {
 .header-content-right {
     display: flex;
     align-self: baseline;
+    max-width: auto;
 }
 .header-profile {
     height: 200px;
-    width: 150px;
+    width: 400px;
     align-self: flex-end;
 }
 
