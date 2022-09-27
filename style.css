@@ -75,6 +75,11 @@ h3 {
     justify-content: center;
     margin: 8px 0;
 }
+
+.att {
+    display: flex;
+    align-self: flex-end;
+}
 .content-one {
     display: flex;
     flex-direction: column;
@@ -116,4 +121,10 @@ h3 {
     height: 200px;
     width: 100%;
     background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
 }
